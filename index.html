@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milestone Project 2 - Joseph E Haruna</title>
+    <!-- PRECONNECT FOR GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- EXTERNAL STYLESHEET -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- HEADER AREA -->
+    <header class="page-header glass-nav">
+        <div class="container container-flex">
+            <div class="logo-area">
+                <a href="#" class="logo">🚀 <span>HarunaDev</span></a>
+            </div>
+            <nav class="main-navigation">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#stats">Statistics</a></li>
+                    <li><a href="#contact-us">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="content-area">
+        <!-- HERO / INTRO SECTION -->
+        <section id="about" class="hero-section">
+            <div class="video-background">
+                <video autoplay muted loop playsinline id="hero-video">
+                    <source src="https://assets.mixkit.co/videos/preview/mixkit-rotating-earth-in-the-starry-space-11442-large.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="video-overlay"></div>
+            </div>
+            
+            <div class="container hero-content">
+                <div class="glass-panel animate-fade-in">
+                    <h1 class="hero-title">Welcome to My <span>Milestone Project</span></h1>
+                    <p class="hero-subtitle">Exploring the cosmos of web development. Built with advanced CSS techniques, Flexbox, and Grid for a truly responsive experience.</p>
+                    <div class="cta-group">
+                        <a href="#services" class="btn btn-primary">Explore Services</a>
+                        <a href="#contact-us" class="btn btn-outline">Get in Touch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES SECTION -->
+        <section id="services" class="services-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Content</h2>
+                    <p class="section-subtitle">Visual and interactive elements showcasing modern web standards.</p>
+                </div>
+
+                <div class="services-grid">
+                    <!-- MULTIMEDIA: VIDEO -->
+                    <div class="service-card glass-panel">
+                        <h3>Cosmic Motion</h3>
+                        <p>High-definition video integration providing depth and movement to the user interface.</p>
+                        <div class="video-container">
+                            <video autoplay muted loop controls class="responsive-video">
+                                <source src="https://github.com/mdn/learning-area/raw/refs/heads/main/html/multimedia-and-embedding/tasks/media-embed/media/video.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+
+                    <!-- MULTIMEDIA: IMAGE -->
+                    <div class="service-card glass-panel">
+                        <h3>Visual Fidelity</h3>
+                        <p>Crispy imagery with semantic captions, optimized for all devices and screen sizes.</p>
+                        <figure class="featured-figure">
+                            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop" alt="Abstract digital representation of Earth" class="responsive-img">
+                            <figcaption>Figure 1: Digital connectivity across the global network.</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- STATS SECTION -->
+        <section id="stats" class="stats-section section-padding secondary-bg">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Milestone Stats</h2>
+                    <p class="section-subtitle">A data-driven look at the progress within the TS Academy programme.</p>
+                </div>
+                
+                <div class="table-container glass-panel">
+                    <table class="stats-table">
+                        <caption>Weekly Engagement and Completion Rate</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Week #</th>
+                                <th scope="col">Module Name</th>
+                                <th scope="col">Completion %</th>
+                                <th scope="col">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Week 1</th>
+                                <td>Intro to Full Stack</td>
+                                <td><span class="badge badge-success">100%</span></td>
+                                <td>Done</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Week 2</th>
+                                <td>Web & HTML Basics</td>
+                                <td><span class="badge badge-success">100%</span></td>
+                                <td>Done</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Week 3</th>
+                                <td>HTML Essentials</td>
+                                <td><span class="badge badge-success">100%</span></td>
+                                <td>Done</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Week 4</th>
+                                <td>Layouts, IDs & Classes</td>
+                                <td><span class="badge badge-progress">95%</span></td>
+                                <td>In Progress</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT FORM SECTION -->
+        <section id="contact-us" class="contact-section section-padding">
+            <div class="container">
+                <div class="contact-wrapper glass-panel">
+                    <div class="form-header">
+                        <h2 class="section-title">Initiate Contact</h2>
+                        <p>Fill out the mission brief below to start our collaboration.</p>
+                    </div>
+
+                    <form action="#" method="POST" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="full-name">Full Name</label>
+                                <input type="text" id="full-name" name="full_name" minlength="10" maxlength="20" required placeholder="10-20 characters">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone-number">Phone Number</label>
+                                <input type="tel" id="phone-number" name="phone" maxlength="11" required placeholder="Max 11 digits">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="city-select">Select Your Quadrant (City)</label>
+                            <select id="city-select" name="city" required>
+                                <option value="">-- Choose Your Sector --</option>
+                                <option value="ikeja">Ikeja</option>
+                                <option value="lekki">Lekki</option>
+                                <option value="surulere">Surulere</option>
+                                <option value="yaba">Yaba</option>
+                                <option value="victoria-island">Victoria Island</option>
+                                <option value="ikoyi">Ikoyi</option>
+                                <option value="ajah">Ajah</option>
+                                <option value="maryland">Maryland</option>
+                                <option value="gbagada">Gbagada</option>
+                                <option value="apapa">Apapa</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Transmission Message</label>
+                            <textarea id="message" name="message" rows="4" maxlength="100" required placeholder="Enter your detailed mission brief here (max 100 characters)..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">Send Transmission</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER AREA -->
+    <footer class="page-footer section-padding">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <a href="#" class="logo">🚀 <span>HarunaDev</span></a>
+                    <p>Building the future of the web, one asteroid at a time.</p>
+                </div>
+                <nav class="footer-navigation">
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Subscribe</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Joseph E Haruna - TS Academy Milestone Project 2</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
